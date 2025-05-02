@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleBank.css" />
+  </head>
+  <body>
+    <h1>Bank Dashboard</h1>
+
+    <div class="total">
+      <h2>Current Balance :$<span id="balance">1000</span></h2>
+    </div>
+
+    <div class="container">
+      <div class="deposit">
+        <h3>Deposit</h3>
+        <input id="num1" type="number" placeholder="Enter Deposit Amount" /><br />
+        <button id="dep" type="submit">Deposit</button><br /><br />
+      </div>
+
+      <div class="Withdraw">
+        <h3>Withdraw</h3>
+        <input
+          id="num2"
+          type="number"
+          placeholder="Enter Withdraw Amount"
+        /><br /><br />
+        <button id="with" type="submit">Withdraw</button><br /><br />
+      </div>
+
+      <p id="message"></p>
+    </div>
+
+    <script src="bankScript.js"></script>
+  </body>
+
+  <footer>
+    <div class="foot">
+      <p>
+        &copy; 2024 Bank of Maharashtra. All Rights Reserved.<br />
+        <a href="/about">About Us</a> | <a href="/contact">Contact Us</a>|
+        <a href="/privacy-policy">Privacy Policy</a>|
+        <a href="/terms">Terms & Condition</a>|
+        <a href="/security">Security & Fruad Prevention</a>
+      </p>
+    </div>
+  </footer>
+</html>
